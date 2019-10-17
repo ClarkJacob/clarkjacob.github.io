@@ -1,0 +1,85 @@
+figure { width: 200px; 
+		background-color: #000000;
+		padding: 10px;
+		float: left;
+		
+	
+}
+figure img { width: 100%;
+}
+
+figcaption { color: #ffffff;
+			text-align: center;
+			font-family: arial, sans-serif;
+}
+
+nav p { font-family: 'Mansalva', cursive;
+		font-size: 30px;
+		color: yellow;
+		text-shadow: 4px 4px 4px #000;
+		font-variant: small-caps;
+	
+	
+}
+
+header h1 {font-family: 'Big Shoulders Text', cursive;
+			color:Black;
+			font-weight: 100;
+}
+
+nav {Background-color:Black;
+
+	padding: 20px;
+
+	text-align: center;
+	
+}
+	nav li {
+
+	display: inline;
+
+	
+
+	padding: 20px;
+
+}
+
+Body {
+
+	Background-color:Brown;
+
+	font-family: georgia;
+
+	background-image: url(jj.jpg);
+
+	background-repeat: no-repeat;
+
+	background-size: cover;
+
+	margin: 0;
+
+	padding: 0;
+
+	color:white;
+
+	
+
+	}
+
+nav a {
+
+	color: white;
+
+	margin-right: 10px;
+
+	font-family: verdana;
+
+	font-size: 20px;
+
+	text-decoration: none;
+
+	
+
+}
+
+	
