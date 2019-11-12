@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+	<link href="slideshow.css" rel="stylesheet" type="text/css">
+	
+</head>
+<body>
+
+<h2>Responsive navigation menu</h2>
+<p>Resize the browser window to see the effect: When the screen is less than 600px, the navigation menu will be displayed vertically instead of horizontally.</p>
+<nav>
+<div class="topnav">
+<ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Friends</a></li>
+  <li><a href="#">Family</a></li>
+  <li><a href="#">Contact</a></li>
+  </ul>
+  
+  
+</div>
+</nav>
+
+<section>
+
+<div id="main">
+  
+  <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/whistler.jpg" data-thumb="images/toystory.jpg" alt="" />
+                <a href="http://dev7studios.com"><img src="images/town.jpg" data-thumb="images/up.jpg" alt="" title="Whistler Blackcomb"/></a>
+                <img src="images/blackcomb.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/whistler_blackcomb.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+
+	<p>This is the main content</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim, dolor eget commodo feugiat, est ante efficitur ante, maximus tempus odio magna in felis. Donec lobortis nisl tortor, sit amet ultrices nulla sollicitudin et. Proin cursus, velit at accumsan venenatis, risus mi faucibus neque, quis venenatis sapien velit eu purus. Nam consequat maximus diam. Nunc lectus ipsum, aliquam nec massa molestie, scelerisque efficitur erat. Donec dictum, magna ac ornare pharetra, neque tellus laoreet odio, sit amet sodales lorem ex sed tortor. Donec in laoreet magna.</p>
+	
+<p>Cras ut justo eget sapien molestie tristique quis quis est. Nulla interdum risus eu tellus semper pretium. Mauris bibendum nisl eget dictum viverra. Nulla bibendum metus leo, sit amet auctor enim varius nec. Phasellus pellentesque ut nunc non euismod. Etiam semper, odio ut malesuada dapibus, ex dui commodo nulla, sed ullamcorper libero mi nec velit. Morbi eu justo sodales, pretium lorem in, consectetur turpis. Morbi ut accumsan sem, eu hendrerit augue. Nunc rutrum suscipit elit in tristique. Curabitur elementum ultricies libero, non cursus lorem tristique ac. Quisque a massa posuere, accumsan tellus vel, dictum ipsum. Aliquam quis ante a nunc porta pharetra. </p>
+
+<p>Cras sit amet erat interdum, lacinia urna sed, condimentum tortor. Suspendisse efficitur ipsum vel posuere viverra. Cras commodo sem id odio suscipit facilisis. Integer nec interdum lorem. Sed ullamcorper fringilla lectus quis placerat. Nulla gravida ex egestas, imperdiet felis ac, consectetur metus. Suspendisse potenti. Pellentesque elementum ex ut nunc viverra, eu mattis lectus vehicula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris vitae tellus nibh. Ut vehicula interdum urna, sit amet bibendum ante lobortis non. Proin at sapien vitae ipsum maximus sagittis. Etiam sed quam sit amet mauris sollicitudin imperdiet nec sit amet lorem. </p>
+</div>
+
+<div id="side">
+	<p>This is the side content</p>
+</div>
+
+</section>
+
+<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+
+</body>
+</html>
