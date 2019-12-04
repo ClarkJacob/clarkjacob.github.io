@@ -1,0 +1,131 @@
+
+html
+
+body.seasons{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #000 url("carroll.jpg") no-repeat center top;
+	width: 100%;
+	height: 100%;
+	font-family: 'Chewy', cursive;
+	
+}
+
+body.spring{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #000 url("spring.jpg") no-repeat center top;
+	font-family: 'Chewy', cursive;
+	background-color: green;
+}
+
+body.summer{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #000 url("summers.jpg") no-repeat center;
+	font-family: 'Chewy', cursive;
+}
+
+body.fall{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #000 url("fall.jpg") no-repeat center top;
+	font-family: 'Chewy', cursive;
+}
+
+body.winter{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #000 url("winter.jpg") no-repeat center top;
+	font-family: 'Chewy', cursive;
+}
+	
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #000 url("pic.jpg") no-repeat center top;
+	font-family: 'Chewy', cursive;
+}
+#wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+h1{
+	color: black;
+	font-size: 24px;
+	margin: 10px;
+	text-align: center;
+	
+}
+
+
+
+h2{
+	color: #8CF0EF;
+	font-size: 25px;
+	margin: 5px;
+}
+header {
+	clear: both;
+	text-align:center;
+}
+#logo {
+	padding: 10px;
+}
+nav {
+	padding: 10px;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-family: 'Chewy', cursive;
+}
+nav li {
+	display: inline;
+	margin: 0 30px;
+	font-family: 'Chewy', cursive;
+}
+nav a {
+	color: #fcf2f2;
+	font-size:30px;
+	text-decoration:none;
+	font-weight: bold;
+	font-family: 'Chewy', cursive;
+}
+nav a:hover {
+	color: white;
+}
+section {
+	background-color:white;
+}
+
+
+
+main p {
+	font-size: 18px;
+	color: white;
+}
+
+figcaption{
+	size: 90%;
+	color: white;
+}
+
+footer {
+	background-color: black;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	clear: both;
+}
+footer a {
+	color: ##fcf2f2;
+}
