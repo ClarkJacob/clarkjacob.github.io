@@ -1,0 +1,89 @@
+Body {
+	Background-color:white;
+	font-family: georgia;
+	background-image: url(jj.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	color:white;
+	
+	}
+	
+	
+	<p> yes</P>
+	
+#wrap { width: 50%;
+		border: 1px solid black;
+		margin: 0 auto;
+		}
+
+
+header {background-color:;
+		text-align: center;
+		color: white;
+}
+
+nav {Background-color:#d60bd6;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+nav li {
+	display: inline;
+	
+	padding: 20px;
+}
+
+nav a {
+	color: white;
+	margin-right: 10px;
+	font-family: verdana;
+	font-size: 20px;
+	text-decoration: none;
+	
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+section {Background-color: black;
+		padding: 30px;
+		overflow: auto;
+	}
+
+h1 { color:#02f56b; }
+
+div.box {width: 200px;
+		height: 200px;
+		background-color: white;
+		border: 10px solid black;
+		padding: 10px;
+		margin: 10 px;
+		}
+div.iframe { padding: 5px;}
+
+
+footer {background-color:#d60bd6;
+		padding: 10px;
+		text-align: center;
+		color: white;
+}
+
+
+.officer{  float: right;
+  width: 33.33%;
+  margin-left: 20px;
+	
+	
+}
+
+
+}
+
+
